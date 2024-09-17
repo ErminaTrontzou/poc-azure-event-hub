@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    azure:
+      eventhubs:
+        connection-string: ${CONNECTION_STRING}
+        namespace: small-poc-event-hub
+        processor:
+          checkpoint-store:
+            container-name: small-eventhub
+            account-name: smalleventhub
+            account-key: ${ACCOUNT_KEY}
+          consumer-group: $Default
+        event-hub-name: poc-eventhub
+
+
