@@ -65,7 +65,7 @@ The Azure Event Hub uses a Blob Storage account for checkpointing, which helps m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/ErminaTrontzou/poc-azure-event-hub
    mvn clean install
    mvn spring-boot:run
 2. Run a post command
